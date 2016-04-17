@@ -1,0 +1,42 @@
+.nav-1-wrap
+  width: 100%
+  background: $primary-color
+  height: 50px
+
+  .nav-1
+    width: 100%
+    margin: auto 0
+    display: flex
+    justify-content: center
+
+    .clearfix:after
+      display: block
+      clear: both
+
+    li
+      margin: 0
+      list-style: none
+      font-family: $head-font
+
+    a
+      transition: all linear 0.2s
+      color: $main-text-color
+      text-decoration: none
+
+    li:hover > a
+      text-decoration: none
+      color: $red-color
+
+//top level
+.nav-1 > ul > li
+  float: left
+  display: inline-block
+  position: relative
+  font-size: 24px
+
+.nav-1 > ul > li > a
+  padding: 10px 40px
+  display: inline-block
+
+.nav-1 > ul > li:hover > a
+  background: lighten($primary-color, 20%)

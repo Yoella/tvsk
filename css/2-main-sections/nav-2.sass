@@ -1,0 +1,38 @@
+.nav-2-wrap
+  width: 185px
+  background: $primary-color
+
+  .nav-2
+    margin: auto 0
+    padding: 0 20px 0 0
+    text-align: right
+    display: flex
+    justify-content: center
+
+    li
+      margin: auto 0
+      list-style: none
+      font-family: $head-font
+
+    a
+      transition: all linear 0.2s
+      color: $main-text-color
+      text-decoration: none
+      padding: 10px 20px 10px 10px
+
+    li:hover > a
+      text-decoration: none
+      color: $red-color
+
+//top level
+.nav-2 > ul > li
+  float: right
+  display: block
+  position: relative
+  font-size: 24px
+
+.nav-2 > ul > li > a
+  display: block
+
+.nav-2 > ul > li:hover > a
+  background: lighten($primary-color, 20%)

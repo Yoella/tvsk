@@ -1,0 +1,110 @@
+* {
+  margin: auto 0; }
+
+body {
+  background: white; }
+
+section .header {
+  height: 300px;
+  margin: auto 0;
+  background-image: url(../img/backgrounds/header-background.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana;
+  -webkit-text-stroke: 1px black;
+  color: white; }
+  section .header .logo {
+    width: 300px;
+    height: 300px; }
+  section .header h1 {
+    font-size: 72px; }
+  section .header h2 {
+    font-size: 48px; }
+
+.nav-1-wrap {
+  width: 100%;
+  background: #9fc5e8;
+  height: 50px; }
+  .nav-1-wrap .nav-1 {
+    width: 100%;
+    margin: auto 0;
+    display: flex;
+    justify-content: center; }
+    .nav-1-wrap .nav-1 .clearfix:after {
+      display: block;
+      clear: both; }
+    .nav-1-wrap .nav-1 li {
+      margin: 0;
+      list-style: none;
+      font-family: Verdana; }
+    .nav-1-wrap .nav-1 a {
+      transition: all linear 0.2s;
+      color: black;
+      text-decoration: none; }
+    .nav-1-wrap .nav-1 li:hover > a {
+      text-decoration: none;
+      color: #cc0000; }
+
+.nav-1 > ul > li {
+  float: left;
+  display: inline-block;
+  position: relative;
+  font-size: 24px; }
+
+.nav-1 > ul > li > a {
+  padding: 10px 40px;
+  display: inline-block; }
+
+.nav-1 > ul > li:hover > a {
+  background: #f1f7fc; }
+
+.nav-2-wrap {
+  width: 185px;
+  background: #9fc5e8; }
+  .nav-2-wrap .nav-2 {
+    margin: auto 0;
+    padding: 0 20px 0 0;
+    text-align: right;
+    display: flex;
+    justify-content: center; }
+    .nav-2-wrap .nav-2 li {
+      margin: auto 0;
+      list-style: none;
+      font-family: Verdana; }
+    .nav-2-wrap .nav-2 a {
+      transition: all linear 0.2s;
+      color: black;
+      text-decoration: none;
+      padding: 10px 20px 10px 10px; }
+    .nav-2-wrap .nav-2 li:hover > a {
+      text-decoration: none;
+      color: #cc0000; }
+
+.nav-2 > ul > li {
+  float: right;
+  display: block;
+  position: relative;
+  font-size: 24px; }
+
+.nav-2 > ul > li > a {
+  display: block; }
+
+.nav-2 > ul > li:hover > a {
+  background: #f1f7fc; }
+
+.flex {
+  display: flex;
+  flex-direction: rows; }
+
+.flex--center {
+  justify-content: center; }
+
+.col-1 {
+  max-width: 620px;
+  margin: 0 10px;
+  background: pink; }
+  .col-1 h1 {
+    text-align: center;
+    font-family: Verdana; }
